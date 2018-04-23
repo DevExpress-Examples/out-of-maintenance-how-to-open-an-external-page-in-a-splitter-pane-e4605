@@ -1,0 +1,30 @@
+@{ViewBag.Title = "NavBar";}
+@Html.DevExpress().Splitter(settings => {
+    settings.Name = "Splitter";
+    settings.FullscreenMode = true;
+    settings.Height = System.Web.UI.WebControls.Unit.Percentage(100);
+    settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+    settings.AllowResize = true;
+    settings.Panes.Add(pane => {
+        pane.AutoWidth = true;
+        pane.SetContent(() => {
+            Html.DevExpress().NavBar(NavBarSettings => {
+                NavBarSettings.Name = "NavBar";
+                NavBarSettings.Target = "NavigationIframe";
+                NavBarSettings.Groups.Add(group => {
+                    group.Text = "Navigation Group";
+
+                    var item = group.Items.Add("Content 1");
+                    item.NavigateUrl = Url.Action("Content1");
+
+                    item = group.Items.Add("Content 2");
+                    item.NavigateUrl = Url.Action("Content2");
+                });
+            }).Render();
+        });
+    });
+    settings.Panes.Add(pane => {
+        pane.ContentUrl = "about:blank";
+        pane.ContentUrlIFrameName = "NavigationIframe";
+    });
+}).GetHtml()
