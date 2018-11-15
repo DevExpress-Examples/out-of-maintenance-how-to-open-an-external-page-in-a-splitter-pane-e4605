@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/NavKB/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/NavKB/Controllers/HomeController.vb))
+* [Index.cshtml](./CS/NavKB/Views/Home/Index.cshtml)
+* [Menu.cshtml](./CS/NavKB/Views/Home/Menu.cshtml)
+* [NavBar.cshtml](./CS/NavKB/Views/Home/NavBar.cshtml)
+* [TreeView.cshtml](./CS/NavKB/Views/Home/TreeView.cshtml)
+* [ContentPage1.cshtml](./CS/NavKB/Views/Shared/ContentPage1.cshtml)
+* [ContentPage2.cshtml](./CS/NavKB/Views/Shared/ContentPage2.cshtml)
+<!-- default file list end -->
 # How to open an external Page in a Splitter Pane
 
 
