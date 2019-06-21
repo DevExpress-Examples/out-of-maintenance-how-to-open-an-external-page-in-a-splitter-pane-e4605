@@ -10,6 +10,9 @@
 * [ContentPage2.cshtml](./CS/NavKB/Views/Shared/ContentPage2.cshtml)
 <!-- default file list end -->
 # How to open an external Page in a Splitter Pane
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4605)**
+<!-- run online end -->
 
 
 <p>This example is an illustration of the <a href="https://www.devexpress.com/Support/Center/p/KA18732">KA18732: How to open external Page / View in a Splitter Pane</a> KB Article. Refer to the Article for an explanation.<br /> It demonstrates how to open an external Page in a Splitter Pane using navigation extensions.</p>
