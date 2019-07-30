@@ -11,7 +11,7 @@
 <!-- default file list end -->
 # How to open an external Page in a Splitter Pane
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4605)**
+**[[Run Online]](https://codecentral.devexpress.com/e4605/)**
 <!-- run online end -->
 
 
